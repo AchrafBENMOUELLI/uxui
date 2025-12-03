@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESPRITCovoiturage</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" crossorigin href="/assets/Acceuil-B3NuxMoe.css">
+</head>
+
+<body class="bg-bg-light font-roboto">
+<!-- Header -->
+<header class="w-full bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 sm:h-24 flex items-center justify-between">
+        <div class="flex items-center gap-2 sm:gap-4">
+            <div class="w-10 h-10 sm:w-14 sm:h-14">
+                <img src="/assets/logo-65rf3KR5.jpg" alt="Logo" class="w-full h-full object-cover">
+            </div>
+            <div class="text-black text-lg sm:text-xl md:text-2xl font-bold font-outfit">ESPRITCovoiturage</div>
+        </div>
+
+        <div class="flex items-center gap-4 sm:gap-10">
+            <nav class="hidden md:flex gap-6 lg:gap-8">
+                <a href="#" class="text-gray-text text-sm lg:text-base font-medium hover:text-black transition">Accueil</a>
+                <a href="#" class="text-gray-text text-sm lg:text-base font-medium hover:text-black transition">Options</a>
+                <a href="#" class="text-gray-text text-sm lg:text-base font-medium hover:text-black transition">Témoignages</a>
+                <a href="#" class="text-gray-text text-sm lg:text-base font-medium hover:text-black transition">CovoltBot</a>
+            </nav>
+
+            <a href="../Pages/Login.html">
+            <button class="bg-teal-primary hover:bg-teal-dark transition rounded-full shadow-md px-4 sm:px-6 md:px-8 py-2 sm:py-3 md:py-4">
+                <span class="text-teal-darker text-sm sm:text-base font-semibold font-outfit tracking-wider">Connexion</span>
+            </button>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section avec fond dégradé -->
+<main class="relative overflow-hidden">
+    <!-- Cercles de fond décoratifs -->
+    <div class="absolute w-1400 h-187 bg-teal-dark opacity-30 rounded-full blur-3xl -top-20 -left-20 z-20"></div>
+    
+    <section class="relative w-full flex flex-col items-center text-center px-6 py-20">
+
+        <div class="bg-white bg-opacity-35 rounded-full border border-teal-dark px-10 py-3 mb-8">
+            <span class="Titre1 text-lg md:text-xl font-semibold font-outfit tracking-widest">
+                Plateforme Officielle pour Étudiants ESPRIT
+            </span>
+        </div>
+
+        <h1 class="TitrePrincipale font-outfit font-bold text-5xl md:text-7xl lg:text-8xl leading-tight max-w-5xl">
+            Partagez vos trajets<br/>
+            et construisez votre<br/>
+            communauté
+        </h1>
+
+        <p class="max-w-4xl TitrePrincipale text-xl md:text-2xl font-light font-roboto leading-8 mt-8">
+            Rejoignez des centaines d'étudiants ESPRIT qui voyagent ensemble. 
+            Économisez de l'argent, gagnez du temps et créez des liens durables.
+        </p>
+
+        <div class="flex flex-col md:flex-row items-center gap-6 mt-12">
+            <button class="bg-teal-primary hover:bg-teal-dark transition text-white font-semibold font-outfit 
+                            px-10 py-4 rounded-full shadow-lg shadow-teal-primary/50 text-lg tracking-widest">
+                Commencer maintenant
+            </button>
+
+            <button class="bg-white hover:bg-gray-50 transition border border-teal-dark text-gray-text font-semibold font-outfit
+                            px-10 py-4 rounded-full text-lg tracking-widest">
+                Voir comment ça marche
+            </button>
+        </div>
+    </section>
+
+    
+    <!-- Section Statistiques -->
+    <section class="relative w-full py-20 flex justify-center">
+        <div class="max-w-7xl w-full px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="flex justify-center">
+                <img src="/assets/img1-B_NAuU2-.png" 
+                     alt="Statistiques"
+                     class="w-full max-w-md md:max-w-lg">
+            </div>
+
+            <div class="flex flex-col justify-center text-teal-darker">
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl lg:text-6xl leading-tight">
+                    Statistiques en temps réel<br/>
+                    pour suivre vos trajets
+                </h2>
+
+                <p class="text-xl md:text-2xl font-light font-roboto leading-8 mt-6">
+                    Visualisez vos économies, vos émissions évitées et votre impact sur 
+                    la communauté ESPRIT avec nos tableaux de bord intuitifs.
+                </p>
+
+                <button class="bg-teal-primary hover:bg-teal-dark transition text-white font-semibold font-outfit
+                               px-10 py-4 rounded-full shadow-lg shadow-teal-primary/50 text-lg tracking-widest mt-10 w-fit">
+                    Voir les statistiques
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CovoltBot -->
+    <section class="relative w-full py-20 flex justify-center">
+
+        <div class="max-w-7xl w-full px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="flex flex-col justify-center text-teal-darker order-2 md:order-1">
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl lg:text-6xl leading-tight">
+                    Assistant IA pour<br/>
+                    optimiser vos déplacements
+                </h2>
+
+                <p class="text-xl md:text-2xl font-light font-roboto leading-8 mt-6">
+                    CovoltBot vous aide à trouver les meilleurs trajets, gérer vos réservations 
+                    et communiquer avec votre groupe en temps réel.
+                </p>
+
+                <button class="bg-teal-primary hover:bg-teal-dark transition text-white font-semibold font-outfit
+                               px-10 py-4 rounded-full shadow-lg shadow-teal-primary/50 text-lg tracking-widest mt-10 w-fit">
+                    Découvrir CovoltBot
+                </button>
+            </div>
+
+            <div class="flex justify-center md:justify-end order-1 md:order-2">
+                <img src="/assets/img2-lueCpSsu.png"
+                     alt="CovoltBot"
+                     class="w-full max-w-sm md:max-w-md">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Fonctionnalités -->
+    <section class="relative w-full py-20 flex justify-center">
+        <div class="max-w-7xl w-full px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl lg:text-6xl leading-tight text-teal-darker">
+                    Tout ce dont vous avez besoin
+                </h2>
+                <p class="text-xl md:text-2xl font-light font-roboto leading-8 mt-4 text-gray-text">
+                    Des fonctionnalités conçues pour les étudiants ESPRIT
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Carte 1 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="Sécurité" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        Sécurité maximale
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Tous les comptes sont vérifiés avec votre email ESPRIT. Système de notation et signalement intégré.
+                    </p>
+                </div>
+
+                <!-- Carte 2 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="Groupes" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        Groupes privés
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Créez des groupes avec vos amis de classe pour organiser facilement vos trajets réguliers.
+                    </p>
+                </div>
+
+                <!-- Carte 3 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="Économies" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        Économies garanties
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Réduisez vos frais de transport jusqu'à 70% en partageant les coûts avec d'autres étudiants.
+                    </p>
+                </div>
+
+                <!-- Carte 4 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="CovoltBot" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        CovoltBot intelligent
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Assistant IA qui vous trouve les meilleurs trajets et gère vos réservations automatiquement.
+                    </p>
+                </div>
+
+                <!-- Carte 5 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="Notifications" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        Notifications instantanées
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Recevez des alertes en temps réel pour vos trajets et les modifications de dernière minute.
+                    </p>
+                </div>
+
+                <!-- Carte 6 -->
+                <div class="bg-white rounded-3xl border border-teal-dark p-8 hover:shadow-xl transition flex flex-col items-center">
+                    <img src="data:image/jpeg;base64,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" alt="Écologie" class="w-20 h-20 mb-6">
+                    <h3 class="text-black text-2xl font-bold font-roboto text-center mb-4">
+                        Impact écologique
+                    </h3>
+                    <p class="text-gray-text text-base font-roboto text-center leading-6">
+                        Suivez votre contribution à la réduction des émissions de CO₂ et partagez vos achievements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Témoignages -->
+    <section class="relative w-full py-20 flex justify-center">
+        <div class="max-w-7xl w-full px-6">
+            <div class="text-center mb-16">
+                <h2 class="font-outfit font-bold text-4xl md:text-5xl lg:text-6xl leading-tight text-teal-darker">
+                    Ce que disent nos utilisateurs
+                </h2>
+                <p class="text-xl md:text-2xl font-light font-roboto leading-8 mt-4 text-gray-text">
+                    Des milliers d'étudiants ESPRIT nous font confiance
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Témoignage 1 -->
+                <div class="bg-white border border-teal-dark rounded-3xl p-8 flex flex-col items-center hover:shadow-xl transition">
+                    <div class="w-28 h-28 rounded-full overflow-hidden mb-4 -mt-16  border-white shadow-md">
+                       <img src="/assets/p3-gpUZqwyu.jpg" alt="Nom" class="w-full h-full object-cover">
+                     </div>
+                    <h3 class="text-black font-roboto font-bold text-xl text-center">Rached Trablsi</h3>
+                    <p class="text-gray-text font-roboto text-sm text-center mb-4">Étudiante 4 SAE</p>
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                    </div>
+                    <p class="text-center text-gray-text font-roboto text-sm leading-6">
+                        "La sécurité est au top avec la vérification des comptes ESPRIT. Je me sens en confiance avec tous les conducteurs de la plateforme."
+                    </p>
+                </div>
+
+                <!-- Témoignage 2 -->
+                <div class="bg-white border border-teal-dark rounded-3xl p-8 flex flex-col items-center hover:shadow-xl transition">
+
+                    <div class="w-28 h-28 rounded-full overflow-hidden mb-4 -mt-16  border-white shadow-md">
+    <img src="/assets/p1-BL3ChXle.jpg" alt="Nom" class="w-full h-full object-cover">
+  </div>
+                    <h3 class="text-black font-roboto font-bold text-xl text-center">Ranine Talbi</h3>
+                    <p class="text-gray-text font-roboto text-sm text-center mb-4">Étudiante 4 TWIN</p>
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                    </div>
+                    <p class="text-center text-gray-text font-roboto text-sm leading-6">
+                        "Les groupes privés sont parfaits pour organiser mes trajets avec mes amis de classe. On partage nos horaires et c'est super pratique!"
+                    </p>
+                </div>
+
+                <!-- Témoignage 3 -->
+                <div class="bg-white border border-teal-dark rounded-3xl p-8 flex flex-col items-center hover:shadow-xl transition">
+
+                    <div class="w-28 h-28 rounded-full overflow-hidden mb-4 -mt-16  border-white shadow-md">
+    <img src="/assets/p2-z9e6go1k.jpg" alt="Nom" class="w-full h-full object-cover">
+  </div>
+                    <h3 class="text-black font-roboto font-bold text-xl text-center">Eya Ketata</h3>
+                    <p class="text-gray-text font-roboto text-sm text-center mb-4">Étudiante 4 INFINI</p>
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                        <span class="text-yellow-400 text-2xl">⭐</span>
+                    </div>
+                    <p class="text-center text-gray-text font-roboto text-sm leading-6">
+                        "J'économise plus de 150 DT par mois grâce au covoiturage. L'application est simple et CovoltBot trouve toujours les meilleurs trajets pour moi."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section CTA finale -->
+    <section class="relative w-full py-20 flex justify-center px-6">
+        
+        <div class="max-w-5xl w-full bg-gradient-to-br from-teal-primary/40 to-teal-dark/40 border-2 border-teal-primary 
+                    rounded-3xl shadow-2xl shadow-teal-primary/30 p-12 flex flex-col items-center">
+            <h2 class="text-center text-teal-darker font-outfit font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6">
+                Rejoignez la communauté<br/>ESPRIT
+            </h2>
+
+            <p class="text-center text-teal-darker font-roboto font-light text-lg md:text-2xl leading-8 max-w-3xl mb-10">
+                Inscrivez-vous maintenant avec votre email ESPRIT et commencez à partager vos trajets dès aujourd'hui. 
+                C'est gratuit, rapide et sécurisé.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-6 w-full sm:w-auto justify-center">
+                <button class="bg-teal-primary hover:bg-teal-dark transition text-white font-outfit font-semibold 
+                               px-12 py-4 rounded-full shadow-lg shadow-teal-primary/50 text-lg tracking-wider">
+                    Créer un compte
+                </button>
+                <button class="bg-white hover:bg-gray-50 transition border-2 border-teal-dark text-gray-text 
+                               font-outfit font-semibold px-12 py-4 rounded-full text-lg tracking-wider">
+                    En savoir plus
+                </button>
+            </div>
+        </div>
+        
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="w-full bg-white mt-20">
+    <div class="max-w-7xl mx-auto px-6 py-6">
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-2">
+                            <!-- Logo et description -->
+            <div>
+                <div class="text-black text-2xl font-bold font-outfit mb-4">
+                    ESPRITCovoiturage
+                </div>
+                <p class="text-gray-text text-base font-roboto leading-6 mb-6">
+                    La plateforme de covoiturage dédiée exclusivement aux étudiants et au personnel d'ESPRIT.
+                    Partagez, économisez, connectez-vous.
+                </p>
+                <div class="w-40 h-20">
+                    <img src="/assets/esprit-BZ6d4ma7.png" alt="Logo ESPRIT" class="w-full h-full object-contain">
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <div> 
+                <h3 class="text-black text-xl font-bold font-outfit mb-4">Navigation</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Accueil</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Options</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Témoignages</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">CovoltBot</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-black text-xl font-bold font-outfit mb-4">Contact</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Email</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">LinkedIn</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Instagram</a></li>
+                    <li><a href="#" class="text-gray-text hover:text-teal-primary transition">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+
+</div>      
+<div data-layer="Rectangle 33" 
+     class="Rectangle33 w-full h-0.5 bg-gradient-to-br from-emerald-400/75 from-[27%] to-slate-500">
+</div>
+<p class="text-center text-gray-text text-sm font-roboto my-4">
+    © 2025 ESPRIT Covoiturage. Tous droits réservés. | Conçu pour la communauté ESPRIT
+</p>
+<div data-layer="Rectangle 32" 
+     class="Rectangle32 w-full h-2.5 bg-gradient-to-br from-emerald-400/75 from-[27%] to-slate-500">
+</div>
+</footer>
+</body>
+</html>
