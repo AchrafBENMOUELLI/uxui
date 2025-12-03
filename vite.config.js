@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: './Pages/Acceuil.html' // specify your actual HTML file path
+      input: './Pages/index.html' // specify your actual HTML file path
     }
   }
 })
